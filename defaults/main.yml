@@ -84,6 +84,10 @@ netplan_remove_existing:  true
 
 netplan_enabled:          true
 # switch to enable/disable the role completely
+
+netplan_apply:            true
+# disable direct apply and just generate / apply on next boot
+
 netplan_packages:
   - 'nplan'
   - 'netplan.io'
